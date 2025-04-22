@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+.menu {
+  background-color: #0d253f;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.enlaces a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.enlaces a:hover {
+  color: #00d1b2;
+}
+
+.hero {
+  background-color: #00a8e8;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #ffdc00;
+}
+
+.hero h2 {
+  font-size: 1.5em;
+}
+
+.boton {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border: 2px solid white;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.seccion:nth-child(even) {
+  background-color: #eaf6ff;
+}
+
+.seccion img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 5px solid #00d1b2;
+}
+
+.galeria-servicios {
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.galeria-servicios .item {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  text-align: center;
+}
+
+.galeria-servicios img {
+  width: 100%;
+  border: 4px solid #ffa502;
+}
+
+.galeria-servicios p {
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-top: 10px;
+}
+
+.testimonio {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  color: #444;
+  background-color: #fff3cd;
+  padding: 15px;
+  border: 2px dashed #ff6b6b;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  padding: 20px;
+  border: 3px solid #00d1b2;
+}
+
+form label,
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  clear: both;
+}
+
+.seccion#equipo {
+  background-color: #fefefe;
+}
+
+.seccion#vision,
+.seccion#mision {
+  background-color: #f0fff0;
+  border-top: 2px solid #00d1b2;
+}
